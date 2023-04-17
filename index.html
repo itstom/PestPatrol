@@ -1,26 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PestPatrol</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css?v=3">
+<html>
+  <head>
+    <title>PestPatrol - Control inteligente de plagas para su jardín</title>
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
     <div class="container">
-        <h1 class="text-center mt-5">PestPatrol IoT Pest Management Device</h1>
-        <p class="text-center">Revolutionize your gardening and crop management with PestPatrol.</p>
-        
-        <h3 class="text-center mt-5">Subscribe for Updates</h3>
-        <form action="https://formspree.io/f/myyabrnk" method="POST">
-            <input type="email" name="email" placeholder="Enter your email" required class="form-control w-50 mx-auto mb-2">
-            <button type="submit" class="btn btn-primary d-block mx-auto subscribe-button">Subscribe</button>
-        </form>
-        <p class="text-center thank-you-message" style="display: none;">Thank you for registering! We'll keep you updated.</p>
+      <img src="pestpatrol-logo.png" alt="PestPatrol Logo" width="150" height="150">
+      <h1>PestPatrol</h1>
+      <h3>Control inteligente de plagas para su jardín</h3>
+      <hr>
+      <form id="subscribe-form">
+        <div class="form-group">
+          <input type="email" class="form-control" id="email" placeholder="Enter your email address">
+        </div>
+        <button type="submit" class="btn btn-primary subscribe-button">Subscribe</button>
+        <p class="thank-you-message">Thank you for subscribing!</p>
+      </form>
+      <div class="middle-section">
+        <h2>Cómo funciona PestPatrol</h2>
+        <p>PestPatrol es un dispositivo inteligente de control de plagas que le ayuda a mantener sanos su jardín y sus cultivos. Solo tienes que instalar el dispositivo en tu jardín, conectarlo a tu red Wi-Fi y dejar que haga el resto.</p>
+        <p>Mediante sensores y algoritmos avanzados, PestPatrol puede detectar e identificar plagas en su jardín, así como controlar la salud y el crecimiento de sus plantas. Si PestPatrol detecta una infestación de plagas o una enfermedad de las plantas, le enviará una alerta para que pueda tomar medidas antes de que sea demasiado tarde.</p>
+        <p>PestPatrol también incluye una aplicación móvil que le permite supervisar su jardín desde cualquier lugar, para que pueda estar al tanto de la gestión de plagas y la salud de las plantas sin importar dónde se encuentre.</p>
+      </div>
     </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="app.js"></script>
+  </body>
 </html>
