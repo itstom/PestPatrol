@@ -9,7 +9,7 @@ body {
 
 header {
     background-color: #C6CCB2;
-    padding: 60px;
+    padding: 30px;
     text-align: center;
 }
 
@@ -38,7 +38,7 @@ header {
 
 .features {
     background-color: #E5EAFA;
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 .features h2 {
@@ -85,7 +85,7 @@ header {
 
 .subscribe {
     background-color: #093824;
-    padding: 100px 0;
+    padding: 50px 0;
     text-align: center;
 }
 
@@ -123,7 +123,7 @@ header {
 
 footer {
     background-color: #093824;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
 }
 
