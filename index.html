@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PestPatrol</title>
+    <style>
+        .section {
+            min-height: 100vh;
+            padding: 50px 0;
+            position: relative;
+        }
+    
+        .section::before {
+            content: "";
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            opacity: 0.2;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            position: absolute;
+            z-index: -1;
+        }
+    
+        .top-section::before {
+            background-image: url('path/to/top-section-image.jpg');
+        }
+    
+        .middle-section::before {
+            background-image: url('path/to/middle-section-image.jpg');
+        }
+    
+        .bottom-section::before {
+            background-image: url('path/to/bottom-section-image.jpg');
+        }
+    </style>    
+</head>
+<body>
+    <div class="container-fluid">
+        <!-- Top section with logo -->
+        <div class="row top-section section">
+            <div class="col-md-12">
+                <img src="path/to/logo.png" alt="PestPatrol Logo" class="img-fluid" style="max-width: 200px;">
+            </div>
+        </div>
+
+        <!-- Middle section with information -->
+        <div class="row middle-section section">
+            <div class="col-md-12">
+                <h2>About PestPatrol</h2>
+                <p>Discover our innovative IoT pest management device for gardening and crops. PestPatrol helps you monitor and control pests in your garden and crop fields, ensuring a healthy and thriving environment.</p>
+            </div>
+        </div>
+
+        <!-- Bottom section with registration -->
+        <div class="row bottom-section section">
+            <div class="col-md-12">
+                <h3 class="text-center">Stay Updated</h3>
+                <p class="text-center">Sign up for updates and news on our product launch:</p>
+
+                <form action="/" method="POST">
+                    <input type="email" name="email" placeholder="Enter your email" required class="form-control w-50 mx-auto mb-2">
+                    <button type="submit" class="btn btn-primary d-block mx-auto subscribe-button">Subscribe</button>
+                </form>                
+
+                <div class="thank-you-message" style="display:none;">
+                    <h3 class="text-center mt-3">Thank you for registering!</h3>
+                    <p class="text-center">We'll keep you updated with news and updates about PestPatrol.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    $(document).ready(function() {
+        $("form").on("submit", async function(event) {
+            event.preventDefault();
+    
+            const email = $("input[name='email']").val();
+            const formData = new FormData();
+            formData.append("email", email);
+    
+            await fetch("/", {
+                method: "POST",
+                body: formData,
+            });
+    
+            $("input[name='email']").hide();
+            $(".subscribe-button").hide();
+            $(".thank-you-message").fadeIn();
+        });
+    });
+    </script>    
+</html>
