@@ -23,6 +23,7 @@ header {
     font-weight: bold;
     margin-bottom: 20px;
     color: #093824;
+    text-shadow: 2px 2px #E5EAFA;
 }
 
 .hero p {
@@ -30,6 +31,7 @@ header {
     line-height: 1.5;
     margin-bottom: 50px;
     color: #707070;
+    text-shadow: 1px 1px #E5EAFA;
 }
 
 /* Features styles */
@@ -45,6 +47,7 @@ header {
     margin-bottom: 50px;
     color: #093824;
     text-align: center;
+    text-shadow: 2px 2px #C6CCB2;
 }
 
 .feature-item {
@@ -68,12 +71,14 @@ header {
     font-weight: bold;
     margin-bottom: 20px;
     color: #093824;
+    text-shadow: 1px 1px #E5EAFA;
 }
 
 .feature-item p {
     font-size: 18px;
     line-height: 1.5;
     color: #707070;
+    text-shadow: 1px 1px #E5EAFA;
 }
 
 /* Subscription styles */
@@ -89,6 +94,7 @@ header {
     font-weight: bold;
     margin-bottom: 50px;
     color: #ffffff;
+    text-shadow: 2px 2px #C6CCB2;
 }
 
 #subscribe-form input[type="email"] {
@@ -98,6 +104,7 @@ header {
     padding: 10px;
     margin-right: 10px;
     border-radius: 5px;
+    background-color: #E5EAFA;
 }
 
 #subscribe-form button[type="submit"] {
@@ -109,6 +116,7 @@ header {
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
+    text-shadow: 1px 1px #C6CCB2;
 }
 
 /* Footer styles */
