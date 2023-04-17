@@ -1,5 +1,5 @@
 body {
-    background: url("Depositphotos_79950840_XL.jpg") no-repeat center center fixed;
+    background: url("https://i.imgur.com/48wh8i5.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -19,24 +19,47 @@ h1 {
     font-family: Arial, sans-serif;
 }
 
+h2 {
+    color: #093824;
+    font-size: 36px;
+    font-family: Arial, sans-serif;
+}
+
 h3 {
     color: #C6CCB2;
     font-size: 18px;
     font-family: Raleway, sans-serif;
 }
 
-.form-control {
-    border: 1px solid #C6CCB2;
+p {
+    font-size: 18px;
+    font-family: Raleway, sans-serif;
+    line-height: 1.5;
+}
+
+.form-control
+border: 1px solid #C6CCB2;
+    font-size: 18px;
+    font-family: Raleway, sans-serif;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 10px;
 }
 
 .subscribe-button {
     background-color: #093824;
     border-color: #093824;
     color: #fff;
+    font-size: 18px;
+    font-family: Raleway, sans-serif;
+    border-radius: 5px;
+    padding: 10px;
 }
 
 .thank-you-message {
     color: #093824;
     font-size: 18px;
     font-family: Raleway, sans-serif;
+    font-weight: bold;
+    display: none;
 }
