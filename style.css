@@ -11,6 +11,7 @@ header {
     background-color: #C6CCB2;
     padding: 30px;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .hero img {
@@ -39,6 +40,7 @@ header {
 .features {
     background-color: #E5EAFA;
     padding: 50px 0;
+    margin-top: -50px;
 }
 
 .features h2 {
@@ -87,6 +89,8 @@ header {
     background-color: #093824;
     padding: 50px 0;
     text-align: center;
+    margin-top: -50px;
+    margin-bottom: 50px;
 }
 
 .subscribe h2 {
