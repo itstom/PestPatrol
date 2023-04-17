@@ -1,30 +1,60 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>PestPatrol - Control inteligente de plagas para su jardín</title>
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PestPatrol Landing Page</title>
     <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <div class="container">
-      <img src="PestPatrol (Logo 001).png" alt="PestPatrol Logo" style="max-height: 100px;">
-      <h3>Control inteligente de plagas para su jardín</h3>
-      <hr>
-      <div class="middle-section">
-        <h2>Cómo funciona PestPatrol</h2>
-        <p>PestPatrol es un dispositivo inteligente de control de plagas que le ayuda a mantener sanos su jardín y sus cultivos. Solo tienes que instalar el dispositivo en tu jardín, conectarlo a tu red Wi-Fi y dejar que haga el resto.</p>
-        <p>Mediante sensores y algoritmos avanzados, PestPatrol puede detectar e identificar plagas en su jardín, así como controlar la salud y el crecimiento de sus plantas. Si PestPatrol detecta una infestación de plagas o una enfermedad de las plantas, le enviará una alerta para que pueda tomar medidas antes de que sea demasiado tarde.</p>
-        <p>PestPatrol también incluye una aplicación móvil que le permite supervisar su jardín desde cualquier lugar, para que pueda estar al tanto de la gestión de plagas y la salud de las plantas sin importar dónde se encuentre.</p>
-      </div>
-     <form id="subscribe-form" action="https://formspree.io/f/myyabrnk" method="POST">
-    <div class="form-group">
-        <input type="email" class="form-control" id="email-input" name="email" placeholder="Ingrese su correo">
-        <button type="submit" class="subscribe-button">Suscríbete</button>
-    </div>
-    <p class="thank-you-message">Thank you for subscribing!</p>
-</form>
-    </div>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="app.js"></script>
-  </body>
+</head>
+<body>
+
+    <header>
+        <div class="hero">
+            <img src="logo.png" alt="PestPatrol logo">
+            <h1>Control inteligente de plagas para su jardín</h1>
+            <p>Introducing the most advanced IoT pest management device for gardening and crops.</p>
+            <form id="subscribe-form" action="https://formspree.io/f/<your-formspree-endpoint-id>" method="POST">
+                <input type="email" name="email" placeholder="Enter your email address">
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </header>
+
+    <main>
+        <section class="features">
+            <h2>Features</h2>
+            <div class="feature-item">
+                <img src="feature-1.png" alt="Feature 1">
+                <h3>Real-time pest detection</h3>
+                <p>Get instant alerts on your phone or computer when pests are detected in your garden or crops.</p>
+            </div>
+            <div class="feature-item">
+                <img src="feature-2.png" alt="Feature 2">
+                <h3>Advanced AI analysis</h3>
+                <p>Our advanced AI algorithms analyze pest behavior to help you take the most effective action.</p>
+            </div>
+            <div class="feature-item">
+                <img src="feature-3.png" alt="Feature 3">
+                <h3>Easy setup and use</h3>
+                <p>Our device is easy to install and use, with a user-friendly app interface.</p>
+            </div>
+        </section>
+		<section class="subscribe">
+    <h2>Subscribe for Updates</h2>
+    <form id="subscribe-form" action="https://formspree.io/f/<your-formspree-endpoint-id>" method="POST">
+        <input type="email" name="email" placeholder="Ingrese su correo">
+        <button type="submit">Suscribirse</button>
+    </form>
+</section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <img src="logo.png" alt="PestPatrol logo">
+            <p>© 2023 PestPatrol. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+
+</body>
 </html>
