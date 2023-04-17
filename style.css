@@ -8,21 +8,35 @@ body {
 }
 
 .container {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: #E5EAFA;
     padding: 20px;
     border-radius: 10px;
 }
 
-h1, h3 {
-    color: #333;
+h1 {
+    color: #093824;
+    font-size: 54px;
+    font-family: Arial, sans-serif;
+}
+
+h3 {
+    color: #C6CCB2;
+    font-size: 18px;
+    font-family: Raleway, sans-serif;
 }
 
 .form-control {
-    border: 1px solid #ced4da;
+    border: 1px solid #C6CCB2;
 }
 
 .subscribe-button {
-    background-color: #007bff;
-    border-color: #007bff;
+    background-color: #093824;
+    border-color: #093824;
     color: #fff;
+}
+
+.thank-you-message {
+    color: #093824;
+    font-size: 18px;
+    font-family: Raleway, sans-serif;
 }
