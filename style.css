@@ -1,12 +1,8 @@
 /* Base styles */
 
 body {
-    background: url("Depositphotos_79950840_XL.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    font-family: Arial, sans-serif;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
 }
 
 /* Header styles */
@@ -18,8 +14,8 @@ header {
 }
 
 .hero img {
-    height: 100px;
-    margin-bottom: 50px;
+    height: 200px;
+    margin-bottom: 20px;
 }
 
 .hero h1 {
@@ -36,27 +32,6 @@ header {
     color: #707070;
 }
 
-#subscribe-form {
-    display: flex;
-    justify-content: center;
-}
-/*
-#subscribe-form input[type="email"] {
-    border: none;
-    font-size: 18px;
-    font-family: 'Raleway', sans-serif;
-    padding: 10px;
-    margin-right: 10px;
-    border-radius: 5px;
-}
-
-#subscribe-form button[type="submit"] {
-    background-color: #093824;
-    color: #ffffff;
-    border: none;
-    font-size: 18px;
-    font-family: 'Raleway', sans-serif;
-*/
 /* Features styles */
 
 .features {
@@ -101,25 +76,6 @@ header {
     color: #707070;
 }
 
-/* Footer styles */
-
-footer {
-    background-color: #093824;
-    padding: 20px;
-    text-align: center;
-}
-
-.footer-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #ffffff;
-}
-
-.footer-content img {
-    height: 50px;
-    margin-right: 10px;
-}
 /* Subscription styles */
 
 .subscribe {
@@ -153,4 +109,24 @@ footer {
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
+}
+
+/* Footer styles */
+
+footer {
+    background-color: #093824;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+.footer-content img {
+    height: 50px;
+    margin-right: 10px;
 }
