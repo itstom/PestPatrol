@@ -57,7 +57,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
     margin-bottom: 30px;
     max-width: 300px;
     margin: 0 auto;
@@ -67,6 +67,7 @@ header {
 .feature-item img {
     height: 100px;
     margin-bottom: 10px;
+    max-width: 100%;
 }
 
 .feature-item h3 {
@@ -84,6 +85,12 @@ header {
     text-shadow: 1px 1px #E5EAFA;
 }
 
+.feature-item .img-container {
+    width: 150px;
+    height: 100px;
+    margin-right: 20px;
+    overflow: hidden;
+}
 /* Subscription styles */
 
 .subscribe {
