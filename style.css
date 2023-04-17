@@ -114,3 +114,14 @@ p {
     margin-top: 10px;
     text-align: center;
 }
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.logo img {
+    max-height: 100px;
+}
+
