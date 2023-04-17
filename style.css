@@ -38,10 +38,14 @@ header {
 /* Features styles */
 
 .features {
-    background-color: #E5EAFA;
-    padding: 30px 0;
-    margin-top: -30px;
-    margin-bottom: 30px;
+  background-color: #E5EAFA;
+  padding: 30px 0;
+  margin-top: -30px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .features h2 {
@@ -54,14 +58,13 @@ header {
 }
 
 .feature-item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    margin-bottom: 30px;
-    max-width: 300px;
-    margin: 0 auto;
-    text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 30px;
+  max-width: 300px;
+  text-align: center;
 }
 
 .feature-item img {
@@ -137,7 +140,6 @@ footer {
     background-color: #093824;
     padding: 10px;
     text-align: center;
-    margin-top: -20px;
 }
 
 .footer-content {
